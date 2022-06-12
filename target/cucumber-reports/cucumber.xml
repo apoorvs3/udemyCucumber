@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.136299">
+    <testcase classname="Login feature to check" name="In order to perform login with various methods" time="0.126351">
+        <system-out><![CDATA[Given user navigates to admin wensite.......................................passed
+When user validates the Homepage............................................passed
+Then user enters the "valid" username.......................................passed
+And user enters the "valid" password........................................passed
+And user select the age category............................................passed
+Then user should "" be successfully logged in...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login feature to check" name="In order to perform login with various methods 2" time="0.009948">
+        <system-out><![CDATA[Given user navigates to admin wensite.......................................passed
+When user validates the Homepage............................................passed
+Then user enters the "invalid" username.....................................passed
+And user enters the "invalid" password......................................passed
+And user select the age category............................................passed
+Then user should "not" be successfully logged in............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

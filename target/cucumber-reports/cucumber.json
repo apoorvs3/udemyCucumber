@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-11T17:26:43.417Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3311600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "In order to perform login with various methods",
+        "description": "",
+        "id": "login-feature-to-check;in-order-to-perform-login-with-various-methods;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 282800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63080600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to admin wensite",
+            "match": {
+              "location": "LoginSteps.user_navigates_to_admin_wensite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 837000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validates the Homepage",
+            "match": {
+              "location": "LoginSteps.user_validates_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1430400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"valid\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 941400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3188600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select the age category",
+            "match": {
+              "location": "LoginSteps.user_select_the_age_category(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "age",
+                  "location"
+                ]
+              },
+              {
+                "cells": [
+                  "below 18",
+                  "India"
+                ]
+              },
+              {
+                "cells": [
+                  "above 18",
+                  "USA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 758300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should \"\" be successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginSteps.user_should_be_successfully_logged_in(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-11T17:26:43.547Z",
+        "before": [
+          {
+            "result": {
+              "duration": 283900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "In order to perform login with various methods",
+        "description": "",
+        "id": "login-feature-to-check;in-order-to-perform-login-with-various-methods;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 354800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 468400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to admin wensite",
+            "match": {
+              "location": "LoginSteps.user_navigates_to_admin_wensite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 441100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validates the Homepage",
+            "match": {
+              "location": "LoginSteps.user_validates_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 673700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"invalid\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 805200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the \"invalid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.user_enters_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1639300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select the age category",
+            "match": {
+              "location": "LoginSteps.user_select_the_age_category(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "age",
+                  "location"
+                ]
+              },
+              {
+                "cells": [
+                  "below 18",
+                  "India"
+                ]
+              },
+              {
+                "cells": [
+                  "above 18",
+                  "USA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should \"not\" be successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"not\"",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginSteps.user_should_be_successfully_logged_in(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature to check",
+    "description": "",
+    "id": "login-feature-to-check",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
